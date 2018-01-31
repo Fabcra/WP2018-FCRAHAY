@@ -14,7 +14,9 @@
 
 
                 </div>
-
+                <div class="col-md-3">
+                   <?php get_template_part('content/article/rightside') ?>
+                </div>
             </div>
         </div>
     </div>
