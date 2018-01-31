@@ -7,7 +7,9 @@
 
        <?php get_template_part('content/about/section1'); ?>
 
-    
+       <?php get_template_part('content/about/section2'); ?>
+
+        
 
     </div>
     <!-- content close -->
