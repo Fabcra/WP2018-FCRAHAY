@@ -13,7 +13,10 @@
     <!-- content begin  -->
     <div id="content" class="no-padding">
 
-    
+        <?php get_template_part('content/homepage/section1') ?>
+
+       
+
     </div>
     <!-- content close -->
 
