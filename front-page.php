@@ -17,7 +17,7 @@
 
         <?php get_template_part('content/homepage/section2'); ?>
 
-        
+        <?php get_template_part('content/homepage/section3'); ?>
 
     </div>
     <!-- content close -->
