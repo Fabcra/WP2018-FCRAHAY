@@ -9,7 +9,7 @@
 
        <?php get_template_part('content/about/section2'); ?>
 
-        
+       <?php get_template_part('content/about/section3'); ?>
 
     </div>
     <!-- content close -->
