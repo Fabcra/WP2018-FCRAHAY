@@ -4,7 +4,7 @@
 
         <?php get_template_part('content/contact/section1-2') ?>
 
-        
+        <?php get_template_part('content/contact/section3') ?>
     </div>
 
 
