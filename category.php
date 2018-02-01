@@ -24,7 +24,7 @@
             <div id="blog-grid" class="blog-grid">
                 <?php while (have_posts()):the_post(); ?>
                     <!-- post begin -->
-                    <article class="item col-md-4 col-sm-6">
+                    <article class="item col-md-4 col-sm-6 myposts" >
                         <div class="post-media">
                             <!-- ACF IMAGE -->
                             <img alt="<?php the_title(); ?>" src="<?php the_field('article_section2_img') ?>" class="img-responsive"/>

@@ -12,22 +12,15 @@
                         <div class="widget-inner">
                             <h3 class="widget-title"><?php _e('Résumé', 'compact') ?></h3>
                             <p><?php _e('Compact is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Vestibulum et lacus urna. Nam luctus ac tortor eu', 'compact') ?></p>
-                            <div class="social-icons clearfix">
-                                <a href="http://www.facebook.com" class="facebook tipped" data-title="facebook"
-                                   data-tipper-options='{"direction":"top","follow":"true"}'><i
-                                            class="fa fa-facebook"></i></a>
-                                <a href="http://www.twitter.com" class="twitter tipped" data-title="twitter"
-                                   data-tipper-options='{"direction":"top","follow":"true"}'><i
-                                            class="fa fa-twitter"></i></a>
-                                <a href="http://www.google.com" class="google tipped" data-title="google +"
-                                   data-tipper-options='{"direction":"top","follow":"true"}'><i
-                                            class="fa fa-google-plus"></i></a>
-                                <a href="http://www.youtube.com" class="youtube tipped" data-title="youtube"
-                                   data-tipper-options='{"direction":"top","follow":"true"}'><i
-                                            class="fa fa-youtube-play"></i></a>
-                                <a href="http://www.linkedin.com" class="linkedin tipped" data-title="linkedin"
-                                   data-tipper-options='{"direction":"top","follow":"true"}'><i
-                                            class="fa fa-linkedin"></i></a>
+                            <div class="social-icons clearfix mynav">
+                                <?php
+                                $social = array(
+                                    'menu' => 'social',
+                                    'container' => 'ul',
+                                    'menu_class' => 'widget-inner',
+                                );
+                                wp_nav_menu($social);
+                                ?>
                             </div>
                         </div>
                     </div>

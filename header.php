@@ -13,7 +13,7 @@
 
     <!-- LOAD CSS FILES -->
     <link href="<?php echo get_stylesheet_directory_uri() ?>/styles.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo get_stylesheet_directory_uri() ?>/css/customform.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_stylesheet_directory_uri() ?>/css/customstyle.css" rel="stylesheet" type="text/css">
 
     <!-- color scheme -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/switcher/demo.css" type="text/css">
